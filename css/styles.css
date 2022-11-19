@@ -3,10 +3,18 @@
 .container{
     display: flex;
     height: 100vh;
+    
     justify-content: center;
     align-items: center;
 }
 @media (min-width: 100px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content:center ;
+        align-items: center;
+    }
     .board{
         width: 157.5px;
         height: 157.5px;
@@ -28,9 +36,13 @@
     .turno{
         width:150px;
         height:150px;
-        display:fex;
+        display:flex;
         background-color: antiquewhite;
         margin-left: 10px;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
@@ -64,6 +76,13 @@
     
 }
 @media (min-width: 500px){
+    .container{
+        display: flex;
+        
+        height: 100vh;
+        justify-content:center ;
+        align-items: center;
+    }
     .board{
         width: 315px;
         height: 315px;
