@@ -1,28 +1,101 @@
+
+
 .container{
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
+@media (min-width: 100px){
+    .board{
+        width: 157.5px;
+        height: 157.5px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        border: 1px solid rgb(158, 63, 63);
+        width: 52.5px;
+        height: 52.5px;
+        cursor: pointer;
+    }
+    .turno{
+        width:150px;
+        height:150px;
+        display:fex;
+        background-color: antiquewhite;
+        margin-left: 10px;
+    }
+}
 
-.board{
-    width: 315px;
-    height: 315px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+
+@media (min-width: 360px){
+    .board{
+        width: 157.5px;
+        height: 157.5px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        border: 1px solid rgb(158, 63, 63);
+        width: 52.5px;
+        height: 52.5px;
+        cursor: pointer;
+    }
+    .turno{
+        width:150px;
+        height:160px;
+        display:fex;
+        background-color: antiquewhite;
+        margin-left: 10px;
+    }
+    
+}
+@media (min-width: 500px){
+    .board{
+        width: 315px;
+        height: 315px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+    
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        border: 1px solid rgb(158, 63, 63);
+        width: 105px;
+        height: 105px;
+        cursor: pointer;
+    }
+    .turno{
+        width:300px;
+        height:200px;
+        display:fex;
+        background-color: antiquewhite;
+        margin-left: 10px;
+        
+        
+    }
     
 }
 
-.box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    border: 1px solid rgb(158, 63, 63);
-    width: 105px;
-    height: 105px;
-    cursor: pointer;
-}
+
+
 .reset{
     width: 100px;
     height: 100px;
@@ -35,15 +108,7 @@
 
 
 
-.turno{
-    width:300px;
-    height:300px;
-    display:fex;
-    background-color: antiquewhite;
-    margin-left: 10px;
-    
-    
-}
+
 .tinfoturn {
     display: flex;
     justify-content: center;
