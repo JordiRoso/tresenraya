@@ -16,14 +16,14 @@ let boxValue = ev.target.innerHTML
     if (boxValue == "" ) {
         if (esJugadorX){
             box.innerHTML = '❌'
-            turnox.innerHTML = nameo +"Estu turno"
+            turnox.innerHTML = nameo + " Es tu turno"
             esJugadorX = false
             
         }
         else {
 
             box.innerHTML = '⭕️'
-            turnox.innerHTML = namex +"Estu turno"
+            turnox.innerHTML = namex + " Es tu turno"
             esJugadorX = true
         }
     }
@@ -59,7 +59,7 @@ let uiBox33 = document.getElementById ('box33')
 
        if ((box11Value == '❌') && (box12Value  == '❌') && ( box13Value == '❌')) {
         document.getElementById('imprimir').innerHTML = namex 
-        +"  ganador"
+        +" Ganador 🏆🏆🏆 "
         uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
         uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
           

@@ -1,12 +1,6 @@
 
 
-.container{
-    display: flex;
-    height: 100vh;
-    
-    justify-content: center;
-    align-items: center;
-}
+
 @media (min-width: 100px){
     .container{
         display: flex;
@@ -14,10 +8,11 @@
         height: 100vh;
         justify-content:center ;
         align-items: center;
+        
     }
     .board{
-        width: 157.5px;
-        height: 157.5px;
+        width: 315px;
+        height: 315px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         
@@ -29,28 +24,27 @@
         align-items: center;
         font-size: 50px;
         border: 1px solid rgb(158, 63, 63);
-        width: 52.5px;
-        height: 52.5px;
+        width: 105px;
+        height: 105px;
         cursor: pointer;
     }
     .turno{
-        width:150px;
-        height:150px;
+        width: 250px;
+        height: 130px;;
         display:flex;
         background-color: antiquewhite;
-        margin-left: 10px;
         margin-top: 10px;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         flex-direction: column;
     }
 }
 
 
-@media (min-width: 360px){
+@media (min-width: 330px){
     .board{
-        width: 210px;
-        height: 210px;
+        width: 315px;
+        height: 315px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         
@@ -62,17 +56,39 @@
         align-items: center;
         font-size: 50px;
         border: 1px solid rgb(158, 63, 63);
-        width: 70px;
-        height: 70px;
+        width: 105px;
+        height: 105px;
         cursor: pointer;
     }
     .turno{
-        width:150px;
+        width:250px;
         height:160px;
         display:fex;
         background-color: antiquewhite;
         margin-left: 10px;
     }
+    .imprimir{
+        align-items: center;
+
+    }
+    .infosup{
+        width: 250px;
+        height: 100px;
+        
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .posganador{
+            display: flex;
+            width: 250px;
+            height: 200px;
+            
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+        }
     
 }
 @media (min-width: 500px){
@@ -109,24 +125,28 @@
         margin-left: 10px;
         
         
+        
     }
     
 }
-@media (min-width: 1300px){
+@media (min-width:700px){
     .container{
         display: flex;
+        flex-direction: row;
         
         height: 100vh;
         justify-content:center ;
         align-items: center;
     }
     .board{
-        width: 472.5px;
-        height: 472.5px;
+        width: 315px;
+        height: 315px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        
+        grid-auto-rows: calc(var(--board-size) / 3);
     }
+        
+    
     
     .box {
         display: flex;
@@ -134,28 +154,56 @@
         align-items: center;
         font-size: 50px;
         border: 1px solid rgb(158, 63, 63);
-        width: 157.5px;
-        height: 157.5px;
-        cursor: pointer;
+        width: 105px;
+        height: 105px;
+        image: cover;
     }
+
     .turno{
         width:300px;
         height:200px;
-        display:fex;
+        display:flex;
         background-color: antiquewhite;
         margin-left: 10px;
         
         
+    }
+    .infosup{
+        display: flex;
+        width: 300px;
+        height: 150px;
+        
+        justify-content:center;
+        font-size: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        align-items: center;
+        
+
+
+    }
+    .posganador{
+        display: flex;
+        width: 400px;
+        height: 600px;
+        
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .imprimir{
+        align-items: center;
+
     }
     
 }
 
 
 
+
 .reset{
     width: 100px;
     height: 100px;
-    background-color: #37a62b;
+    background-color: #eafa09;
 }
 .main-nav {
     grid-area: nav;
