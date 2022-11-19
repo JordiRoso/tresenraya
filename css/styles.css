@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.board{
+    width: 315px;
+    height: 315px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.box {display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border: 1px solid rgb(158, 63, 63);
+    width: 105px;
+    height: 105px;
+    cursor: pointer;
+}
+
+.jugadores{
+    width: 315px;
+    height: 315px;
+    background-color: aqua;
+    margin-left: 10px;
+
+
+}
