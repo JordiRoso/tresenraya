@@ -16,14 +16,14 @@ let boxValue = ev.target.innerHTML
     if (boxValue == "" ) {
         if (esJugadorX){
             box.innerHTML = '❌'
-            turnox.innerHTML = namex +"Estu turno"
+            turnox.innerHTML = nameo +"Estu turno"
             esJugadorX = false
             
         }
         else {
 
             box.innerHTML = '⭕️'
-            turnox.innerHTML = nameo +"Estu turno"
+            turnox.innerHTML = namex +"Estu turno"
             esJugadorX = true
         }
     }
