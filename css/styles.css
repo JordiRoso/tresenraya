@@ -8,10 +8,9 @@
         height: 100vh;
         justify-content:center ;
         align-items: center;
-        background-color: #e5e5f7;
-        opacity: 0.7;
-        background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #f74453 );
+        background: linear-gradient(to right, rgb(120, 120, 239), white);
         
+     
     }
     .board{
         width: 315px;
@@ -26,7 +25,7 @@
         justify-content: center;
         align-items: center;
         font-size: 50px;
-        border: 1px solid rgb(158, 63, 63);
+        border: 2px solid rgb(12, 1, 1);
         width: 105px;
         height: 105px;
         cursor: pointer;
@@ -35,11 +34,11 @@
         width: 250px;
         height: 130px;;
         display:flex;
-        background: linear-gradient(to bottom right, rgb(123, 123, 244), white);
         margin-top: 10px;
         justify-content: start;
         align-items: center;
         flex-direction: column;
+        
     }
 }
 
@@ -58,7 +57,7 @@
         justify-content: center;
         align-items: center;
         font-size: 50px;
-        border: 1px solid rgb(158, 63, 63);
+        border: 2px solid rgb(40, 38, 38);
         width: 105px;
         height: 105px;
         cursor: pointer;
@@ -67,7 +66,7 @@
         width:250px;
         height:160px;
         display:fex;
-        background-color: antiquewhite;
+        
         margin-left: 10px;
     }
     .imprimir{
@@ -94,6 +93,7 @@
         }
     
 }
+
 @media (min-width: 500px){
     .container{
         display: flex;
@@ -115,7 +115,7 @@
         justify-content: center;
         align-items: center;
         font-size: 50px;
-        border: 1px solid rgb(158, 63, 63);
+        border: 2px solid rgb(35, 33, 33);
         width: 105px;
         height: 105px;
         cursor: pointer;
@@ -124,7 +124,7 @@
         width:300px;
         height:200px;
         display:fex;
-        background-color: antiquewhite;
+        
         margin-left: 10px;
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
         font-size: 18px;
@@ -158,7 +158,7 @@
         justify-content: center;
         align-items: center;
         font-size: 50px;
-        border: 1px solid rgb(158, 63, 63);
+        border: 2px solid rgb(34, 33, 33);
         width: 105px;
         height: 105px;
         image: cover;
@@ -168,8 +168,8 @@
         width:300px;
         height:200px;
         display:flex;
-        background-color: antiquewhite;
-        margin-left: 10px;
+        
+        margin-left: 25px;
         
         
     }
