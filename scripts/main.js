@@ -2,7 +2,7 @@
 
 const playerClick = (ev)=> {
    
-  //let namex = document.getElementById("jugador1_start").value;
+  let namex = document.getElementById("jugador1_start").value;
   //let nameo = document.getElementById("jugador2_start").value;
   let box = ev.target
   let boxValue = ev.target.innerHTML
