@@ -28,29 +28,29 @@ let boxValue = ev.target.innerHTML
         }
     }
     
-let box11Value = document.getElementById('box11') .innerHTML
-let box12Value = document.getElementById('box12') .innerHTML
-let box13Value = document.getElementById('box13') .innerHTML
+    let box11Value = document.getElementById('box11') .innerHTML
+    let box12Value = document.getElementById('box12') .innerHTML
+    let box13Value = document.getElementById('box13') .innerHTML
 
-let box21Value = document.getElementById('box21') .innerHTML
-let box22Value = document.getElementById('box22') .innerHTML
-let box23Value = document.getElementById('box23') .innerHTML
+    let box21Value = document.getElementById('box21') .innerHTML
+    let box22Value = document.getElementById('box22') .innerHTML
+    let box23Value = document.getElementById('box23') .innerHTML
 
-let box31Value = document.getElementById('box31') .innerHTML
-let box32Value = document.getElementById('box32') .innerHTML
-let box33Value = document.getElementById('box33') .innerHTML
+    let box31Value = document.getElementById('box31') .innerHTML
+    let box32Value = document.getElementById('box32') .innerHTML
+    let box33Value = document.getElementById('box33') .innerHTML
 
 
 
-let uiBox11 = document.getElementById ('box11')
-let uiBox12 = document.getElementById ('box12')
-let uiBox13 = document.getElementById ('box13')
-let uiBox21 = document.getElementById ('box21')
-let uiBox22 = document.getElementById ('box22')
-let uiBox23 = document.getElementById ('box23')
-let uiBox31 = document.getElementById ('box31')
-let uiBox32 = document.getElementById ('box32')
-let uiBox33 = document.getElementById ('box33')
+    let uiBox11 = document.getElementById ('box11')
+    let uiBox12 = document.getElementById ('box12')
+    let uiBox13 = document.getElementById ('box13')
+    let uiBox21 = document.getElementById ('box21')
+    let uiBox22 = document.getElementById ('box22')
+    let uiBox23 = document.getElementById ('box23')
+    let uiBox31 = document.getElementById ('box31')
+    let uiBox32 = document.getElementById ('box32')
+    let uiBox33 = document.getElementById ('box33')
 
 
 
@@ -348,12 +348,9 @@ let uiBox33 = document.getElementById ('box33')
                  nameo = document.getElementById("jugador2_start").value = ""
 
                  turnox.innerHTML = ""
+               }
 
-
-    
-
-        
-    }
+               
         
     
         
