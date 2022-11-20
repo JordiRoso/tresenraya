@@ -25,7 +25,7 @@
         justify-content: center;
         align-items: center;
         font-size: 50px;
-        border: 2px solid rgb(12, 1, 1);
+        border: 1px solid rgb(12, 1, 1);
         width: 105px;
         height: 105px;
         cursor: pointer;
@@ -71,7 +71,7 @@
         justify-content: center;
         align-items: center;
         font-size: 50px;
-        border: 2px solid rgb(40, 38, 38);
+        border: 1px solid rgb(40, 38, 38);
         width: 105px;
         height: 105px;
         cursor: pointer;
@@ -129,7 +129,7 @@
         justify-content: center;
         align-items: center;
         font-size: 50px;
-        border: 2px solid rgb(35, 33, 33);
+        border: 1px solid rgb(35, 33, 33);
         width: 105px;
         height: 105px;
         cursor: pointer;
@@ -172,7 +172,7 @@
         justify-content: center;
         align-items: center;
         font-size: 50px;
-        border: 2px solid rgb(34, 33, 33);
+        border: 1px solid rgb(34, 33, 33);
         width: 105px;
         height: 105px;
         image: cover;

@@ -59,7 +59,7 @@ let uiBox33 = document.getElementById ('box33')
 
        if ((box11Value == '❌') && (box12Value  == '❌') && ( box13Value == '❌')) {
         document.getElementById('imprimir').innerHTML = namex 
-        +" Ganador 🏆🏆🏆 "
+        +" Gana 🏆🏆🏆 "
         uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
         uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
         uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -74,7 +74,7 @@ let uiBox33 = document.getElementById ('box33')
         }
        if ((box21Value == '❌') && (box22Value  == '❌') && ( box23Value == '❌')) {
         document.getElementById('imprimir').innerHTML = namex 
-        +" Ganador 🏆🏆🏆 "
+        +" Gana 🏆🏆🏆 "
         uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
         uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
         uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -92,7 +92,7 @@ let uiBox33 = document.getElementById ('box33')
 
          if ((box31Value == '❌') && (box32Value  == '❌') && ( box33Value == '❌')) {
             document.getElementById('imprimir').innerHTML = namex 
-        +" Ganador 🏆🏆🏆 "
+        +" Gana 🏆🏆🏆 "
             uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
             uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
             uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -110,7 +110,7 @@ let uiBox33 = document.getElementById ('box33')
 
         if ((box11Value == '❌') && (box21Value  == '❌') && ( box31Value == '❌')) {
             document.getElementById('imprimir').innerHTML = namex 
-            +" Ganador 🏆🏆🏆 "
+            +" Gana 🏆🏆🏆 "
             uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
             uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
             uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -127,7 +127,7 @@ let uiBox33 = document.getElementById ('box33')
 
         if ((box12Value == '❌') && (box22Value  == '❌') && ( box32Value == '❌')) {
             document.getElementById('imprimir').innerHTML = namex 
-            +" Ganador 🏆🏆🏆 "
+            +" Gana 🏆🏆🏆 "
             uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
             uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
             uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -144,7 +144,7 @@ let uiBox33 = document.getElementById ('box33')
 
         if ((box13Value == '❌') && (box23Value  == '❌') && ( box33Value == '❌')) {
             document.getElementById('imprimir').innerHTML = namex 
-            +" Ganador 🏆🏆🏆 "
+            +" Gana 🏆🏆🏆 "
             uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
             uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
             uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -161,7 +161,7 @@ let uiBox33 = document.getElementById ('box33')
 
         if ((box11Value == '❌') && (box22Value  == '❌') && ( box33Value == '❌')) {
             document.getElementById('imprimir').innerHTML = namex 
-            +" Ganador 🏆🏆🏆 "
+            +" Gana 🏆🏆🏆 "
             uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
             uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
             uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -178,7 +178,7 @@ let uiBox33 = document.getElementById ('box33')
 
         if ((box31Value == '❌') && (box22Value  == '❌') && ( box13Value == '❌')) {
                 document.getElementById('imprimir').innerHTML = namex 
-                +" Ganador 🏆🏆🏆 "
+                +" Gana 🏆🏆🏆 "
                 uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -194,7 +194,7 @@ let uiBox33 = document.getElementById ('box33')
         
         
         if ((box11Value == '⭕️') && (box12Value  == '⭕️') && ( box13Value == '⭕️')) {
-                document.getElementById('imprimir').innerHTML = nameo + "  ganadora"
+                document.getElementById('imprimir').innerHTML = nameo + " Gana 🏆🏆🏆"
                 uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -209,7 +209,7 @@ let uiBox33 = document.getElementById ('box33')
             }  
             
         if ((box21Value == '⭕️') && (box22Value  == '⭕️') && ( box23Value == '⭕️')) {
-                document.getElementById('imprimir').innerHTML = nameo + "  ganadora"
+                document.getElementById('imprimir').innerHTML = nameo + "  Gana 🏆🏆🏆"
                 uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -223,7 +223,7 @@ let uiBox33 = document.getElementById ('box33')
                 turnox.innerHTML = ""
             }  
         if ((box31Value == '⭕️') && (box32Value  == '⭕️') && ( box33Value == '⭕️')) {
-                document.getElementById('imprimir').innerHTML = nameo + "  ganadora"
+                document.getElementById('imprimir').innerHTML = nameo + "  Gana 🏆🏆🏆"
                 uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -237,7 +237,7 @@ let uiBox33 = document.getElementById ('box33')
                 turnox.innerHTML = ""
             }  
         if ((box11Value == '⭕️') && (box31Value  == '⭕️') && ( box21Value == '⭕️')) {
-                document.getElementById('imprimir').innerHTML = nameo + "  ganadora"
+                document.getElementById('imprimir').innerHTML = nameo + "  Gana 🏆🏆🏆"
                 uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -251,7 +251,7 @@ let uiBox33 = document.getElementById ('box33')
                 turnox.innerHTML = ""
             }  
             if ((box12Value == '⭕️') && (box22Value  == '⭕️') && ( box32Value == '⭕️')) {
-                document.getElementById('imprimir').innerHTML = nameo + "  ganadora"
+                document.getElementById('imprimir').innerHTML = nameo + "  Gana 🏆🏆🏆"
                 uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -265,7 +265,7 @@ let uiBox33 = document.getElementById ('box33')
                 turnox.innerHTML = ""
             } 
             if ((box13Value == '⭕️') && (box23Value  == '⭕️') && ( box33Value == '⭕️')) {
-                document.getElementById('imprimir').innerHTML = nameo + "  ganadora"
+                document.getElementById('imprimir').innerHTML = nameo + "  Gana 🏆🏆🏆"
                 uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -279,7 +279,7 @@ let uiBox33 = document.getElementById ('box33')
                 turnox.innerHTML = ""
             }
             if ((box11Value == '⭕️') && (box22Value  == '⭕️') && ( box33Value == '⭕️')) {
-                document.getElementById('imprimir').innerHTML = nameo + "  ganadora"
+                document.getElementById('imprimir').innerHTML = nameo + "  Gana 🏆🏆🏆"
                 uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
@@ -293,7 +293,7 @@ let uiBox33 = document.getElementById ('box33')
                 turnox.innerHTML = ""
             }
             if ((box31Value == '⭕️') && (box22Value  == '⭕️') && ( box13Value == '⭕️')) {
-                document.getElementById('imprimir').innerHTML = nameo + "  ganadora"
+                document.getElementById('imprimir').innerHTML = nameo + "  Gana 🏆🏆🏆"
                 uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
                 uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
