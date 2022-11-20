@@ -195,16 +195,16 @@ let uiBox33 = document.getElementById ('box33')
         
         if ((box11Value == '⭕️') && (box12Value  == '⭕️') && ( box13Value == '⭕️')) {
                 document.getElementById('imprimir').innerHTML = nameo + " Gana 🏆🏆🏆"
-                uiBox11.innerHTML =  '<img src="img/imageonline/winfondo/00.png" alt="">' 
-                uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
-                uiBox12.innerHTML =  '<img src="img/imageonline/winfondo/10.png" alt="">'
-                uiBox13.innerHTML =  '<img src="img/imageonline/winfondo/20.png" alt="">'
-                uiBox21.innerHTML =  '<img src="img/imageonline/winfondo/01.png" alt="">' 
-                uiBox22.innerHTML =  '<img src="img/imageonline/winfondo/11.png" alt="">'
-                uiBox23.innerHTML =  '<img src="img/imageonline/winfondo/21.png" alt="">'
-                uiBox31.innerHTML =  '<img src="img/imageonline/winfondo/02.png" alt="">' 
-                uiBox32.innerHTML =  '<img src="img/imageonline/winfondo/12.png" alt="">'
-                uiBox33.innerHTML =  '<img src="img/imageonline/winfondo/22.png" alt="">'
+                uiBox11.innerHTML =  '<img src="img/imageonline/ganadora2/00.png" alt="">' 
+                uiBox12.innerHTML =  '<img src="img/imageonline/ganadora2/10.png" alt="">'
+                uiBox12.innerHTML =  '<img src="img/imageonline/ganadora2/10.png" alt="">'
+                uiBox13.innerHTML =  '<img src="img/imageonline/ganadora2/20.png" alt="">'
+                uiBox21.innerHTML =  '<img src="img/imageonline/ganadora2/01.png" alt="">' 
+                uiBox22.innerHTML =  '<img src="img/imageonline/ganadora2/11.png" alt="">'
+                uiBox23.innerHTML =  '<img src="img/imageonline/ganadora2/21.png" alt="">'
+                uiBox31.innerHTML =  '<img src="img/imageonline/ganadora2/02.png" alt="">' 
+                uiBox32.innerHTML =  '<img src="img/imageonline/ganadora2/12.png" alt="">'
+                uiBox33.innerHTML =  '<img src="img/imageonline/ganadora2/22.png" alt="">'
                 turnox.innerHTML = ""
             }  
             
