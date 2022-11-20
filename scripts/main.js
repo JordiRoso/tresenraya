@@ -1,7 +1,7 @@
 let esPlayerX = true
 
 
-const playerClick = (ev)=> {
+const playerOn = (ev)=> {
    
 
 let namex = document.getElementById("jugador1_start").value;
@@ -313,7 +313,17 @@ let boxValue = ev.target.innerHTML
             if ((box11Value == '⭕️' || box11Value == '❌') && (box12Value  == '⭕️'|| box12Value  == '❌') && ( box13Value == '⭕️' || box13Value == '❌')&&
                 (box21Value == '⭕️'|| box21Value == '❌' ) && (box22Value  == '⭕️' ||box22Value  == '❌') && ( box23Value == '⭕️' || box23Value == '❌')&&
                 (box31Value == '⭕️' || box31Value == '❌' ) && (box32Value  == '⭕️' || box32Value  == '❌') && ( box33Value == '⭕️' || box33Value == '❌')){
-                document.getElementById('imprimir').innerHTML = "empate"
+                document.getElementById('imprimir').innerHTML = "EMPATE  🏴‍☠️🏴‍☠️🏴‍☠️"
+                uiBox11.innerHTML =  '<img src="img/imageonline/EMPATE/00.png" alt="">' 
+                uiBox12.innerHTML =  '<img src="img/imageonline/EMPATE/10.png" alt="">'
+                uiBox12.innerHTML =  '<img src="img/imageonline/EMPATE/10.png" alt="">'
+                uiBox13.innerHTML =  '<img src="img/imageonline/EMPATE/20.png" alt="">'
+                uiBox21.innerHTML =  '<img src="img/imageonline/EMPATE/01.png" alt="">' 
+                uiBox22.innerHTML =  '<img src="img/imageonline/EMPATE/11.png" alt="">'
+                uiBox23.innerHTML =  '<img src="img/imageonline/EMPATE/21.png" alt="">'
+                uiBox31.innerHTML =  '<img src="img/imageonline/EMPATE/02.png" alt="">' 
+                uiBox32.innerHTML =  '<img src="img/imageonline/EMPATE/12.png" alt="">'
+                uiBox33.innerHTML =  '<img src="img/imageonline/EMPATE/22.png" alt="">'
                 turnox.innerHTML = ""
 
                 }       
