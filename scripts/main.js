@@ -313,7 +313,7 @@ let boxValue = ev.target.innerHTML
             if ((box11Value == '⭕️' || box11Value == '❌') && (box12Value  == '⭕️'|| box12Value  == '❌') && ( box13Value == '⭕️' || box13Value == '❌')&&
                 (box21Value == '⭕️'|| box21Value == '❌' ) && (box22Value  == '⭕️' ||box22Value  == '❌') && ( box23Value == '⭕️' || box23Value == '❌')&&
                 (box31Value == '⭕️' || box31Value == '❌' ) && (box32Value  == '⭕️' || box32Value  == '❌') && ( box33Value == '⭕️' || box33Value == '❌')){
-                document.getElementById('imprimir').innerHTML = "EMPATE  🏴‍☠️🏴‍☠️🏴‍☠️"
+                document.getElementById('imprimir').innerHTML = " Empate  🏴‍☠️🏴‍☠️🏴‍☠️"
                 uiBox11.innerHTML =  '<img src="img/imageonline/EMPATE/00.png" alt="">' 
                 uiBox12.innerHTML =  '<img src="img/imageonline/EMPATE/10.png" alt="">'
                 uiBox12.innerHTML =  '<img src="img/imageonline/EMPATE/10.png" alt="">'
