@@ -1,5 +1,4 @@
-let esJugadorX = true
-console.log( 'jugadorx', esJugadorX) 
+let esPlayerX = true
 
 
 const playerClick = (ev)=> {
@@ -14,17 +13,17 @@ let boxValue = ev.target.innerHTML
  
 
     if (boxValue == "" ) {
-        if (esJugadorX){
+        if (esPlayerX){
             box.innerHTML = '❌'
             turnox.innerHTML = nameo + " Es tu turno"
-            esJugadorX = false
+            esPlayerX = false
             
         }
         else {
 
             box.innerHTML = '⭕️'
             turnox.innerHTML = namex + " Es tu turno"
-            esJugadorX = true
+            esPlayerX = true
         }
     }
     
@@ -326,7 +325,7 @@ let boxValue = ev.target.innerHTML
 
 
     }
-    document.getElementById('imprimir').innerHTML = ""
+   //document.getElementById('imprimir').innerHTML = ""
 
     function reset() {
                 box11Value = document.getElementById('box11') .innerHTML = ""
@@ -342,7 +341,7 @@ let boxValue = ev.target.innerHTML
                 box33Value = document.getElementById('box33') .innerHTML = ""
 
                 document.getElementById('imprimir').innerHTML = ""
-                 esJugadorX = true
+                 esPlayerX = true
 
                  namex = document.getElementById("jugador1_start").value = ""
                  nameo = document.getElementById("jugador2_start").value = ""
